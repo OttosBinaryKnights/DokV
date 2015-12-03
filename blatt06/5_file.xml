@@ -1,0 +1,10 @@
+<Auftraege>
+        <Auftrag>
+           <Kunde>Meier</Kunde>
+           <PC>pc500</PC>
+        </Auftrag>
+        <Auftrag>
+           <Kunde>Reich</Kunde>
+           <PC>pc600</PC>
+      </Auftrag>
+ </Auftraege>
