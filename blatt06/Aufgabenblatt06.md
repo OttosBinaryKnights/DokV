@@ -121,17 +121,17 @@
 **Geben Sie XPath-Ausdrücke für die folgenden Knotenmengen oder Attributwerte an. Die Ausdrücke sollen für beliebige Dokumente gelten, nicht nur für das Beispieldokument.**
 1. **alle Kommentarknoten im gesamten Dokument**
 
- //comment()
+   //*[comment()]
 2. **ausgehend von einem Elementknoten vom Typ Aufnahme den Attributknoten mit dem Nachnamen des zugehörigen Komponisten**
 
- //komponist/@nachname
- --> Zweifel: finden des Elementknotens 'Aufnahme'
+   ../../komponist/@nachname
+
 3. **die Namen (Attributwert) von allen im Dokument vorkommenden Orchestern**
 
- //@orchester
+  //@orchester
 4. **alle Stücke (Elementknoten) von Bach in "E-dur"**
 
- //komponist[@nachname='Bach']/stueck[@tonart="E-dur"]
+  //komponist[@nachname='Bach']/stueck[@tonart='E-dur']
 
 ---
 ## Yet another XPath exercise

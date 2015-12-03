@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<CDDB>
+<!-- Beispiel Musikstücke aus CDDB Datenbank -->
+ <komponisten>
+  <komponist K_ID="22" vorname="Johann Sebastian" nachname="Bach" geburtsjahr="1685" todesjahr="1750">
+   <stueck stueck_ID="1054" titel="Violinkonzert Nr. 1" tonart="a-moll" opus="BWV 1041">
+    <aufnahme aufn_ID="1054001" orchester="Les Solistes Romands" dirigent="Arpad Gerecz"/>
+   </stueck>
+   <stueck stueck_ID="1055" titel="Violinkonzert Nr. 2" tonart="E-dur" opus="BWV 1042">
+    <aufnahme aufn_ID="1055001" orchester="Les Solistes Romands" dirigent="Arpad Gerecz"/>
+   </stueck>
+   <!-- Als Beispiel nur zwei Stücke von Bach -->
+  </komponist>
+ </komponisten>
+ <cds>
+  <cd titel="Bach: Violinkonzerte" preis="12.95" gesamtspielzeit="PT61M24S">
+   <CDAufnahme aufn_ID="1054001"/>
+   <CDAufnahme aufn_ID="1055001"/>
+  </cd>
+ </cds>
+</CDDB>
