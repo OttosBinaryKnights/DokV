@@ -13,6 +13,17 @@
 |     15        |	preceding::em          |   12,5,6    |
 |      7        |	//fig                  |      -      |
 
+cyberkeilers Vorschläge:
+
+| Kontextknoten |	Pfadausdruck           | Knotenmenge |
+| :-----------: | :--------------------: | :---------: |
+|      8        |      p                 |    10,13    |
+|     18        |	ancestor-or-self::sect |     14,8    |
+|     14        |  	.//*                 | 15,16,17,18,19,20,21 |
+|      3        |	../..//sect/title      |    9        |
+|     15        |	preceding::em          |   12,5,6    |
+|      7        |	//fig                  |   16,21     |
+
 ---
 ## XPath-Ausdrücke (1)
 **Gegeben ist ein durch ein XML-Dokument beschriebener Baum:**
