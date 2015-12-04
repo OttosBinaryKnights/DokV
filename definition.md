@@ -103,6 +103,37 @@ Werden aufgerufen wenn im Stylesheet selbst kein template anzuwenden ist.
 Navigieren und Knotenmengen lokalisieren
 Verwendung z.B. in match-Attributen
 
+### Auswahl via:
+* Knotentypen
+* Achsen
+* Pfade
+
+#### Achsen
+ * child
+ * parent
+ * descendant *(in Preorder)*
+ * ancestor
+ * following *(in Preorder)*
+ * preceding
+ * descendant-or-self
+ * ancestor-or-self
+ * Attribute
+ * namespace
+
+#### Pfade
+ * / knotenname
+ * :: Achsen
+ * Wildcards: child:: $*, *, //$
+ * Attribute
+  *
+  *
+ * Bedingungen
+  * ```self::foo```
+  * ```bar[3]``` (**XPath beginnt mit 1 zu zählen!**)
+  * ```bar[last()]```
+  * ```foo//baz```
+    *Alle Kinder baz von foo*
+
 ### Funktionen
 
 ### Filter
