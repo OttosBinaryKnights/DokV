@@ -149,7 +149,8 @@ werden mit geschweiften Klammern ```<element att="{$attname}">```
 ## XQuery
 (htto://stylusstudio.com/xquery_primer.html)
 (Abfrage Sprache für XML, wie SQL für DB-Tabellen)
-* verwendet XPath ausdrücke
+* verwendet XPath Ausdrücke
+Abfrage Starten
 
 ### FLWOR
 #### Klauseln:
@@ -160,3 +161,21 @@ werden mit geschweiften Klammern ```<element att="{$attname}">```
   *
 #### Kommentare
   * ```(: Kommentar Text :)```
+
+### Benutzerdefinierte Funktionen
+  besteht aus Funktionkopf und Funktionsrumpf
+
+
+# Informationsextraktion
+wenn Quellen nicht formatiert sind, sondern natürlich sprachlich kommt IE wrsl zur Anwendung
+
+## Definition:
+unseen textes input -> structured output (eindeutig)
+
+Problem: Text of mehrdeutig / verschiedene Texte mit gleicher Aussage
+
+### Namen
+im Englischen: Eigennamen über Großschreibung
+
+### Beziehungen
+Hängen oft an Verben oder verbalen Strukturen

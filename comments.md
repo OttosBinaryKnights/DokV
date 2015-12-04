@@ -16,3 +16,6 @@
 
   (40) Es muss nur ein Paar die Bedingung erfüllen, dass Ausdruck erfüllt ist.
     ``where (1.0, 2.0) != (1.0, 2.0)`` ist erfüllt wenn aus erstes Paar z.B: 1.0 und 2.0 aus zweitem Paar
+
+# IE-Intro
+Informationsextraktion aus unstrukturierten Daten (Mails etc.)
