@@ -60,7 +60,7 @@
 
 5. **alle Personen mit Familienname "Chan" oder mit dem Vornamen "Ho" ,**
 
- ``//person[./name/family = 'Chan' | ./name/given = 'Ho']``
+ ``//person[./name/family = 'Chan' or ./name/given = 'Ho']``
 
 6. **alle Personen mit einem oder mehreren ```<subordinate>```-Knoten (ohne Benutzung der Funktion count),**
 
