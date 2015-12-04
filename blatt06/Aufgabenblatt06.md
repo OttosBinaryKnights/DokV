@@ -4,24 +4,14 @@
 ![Tree](xml-tree.jpg)
 **Geben Sie die Knotenmengen an, die folgende XPath-Ausdrücke mit den jeweils angegebenen Kontextknoten ermitteln. Achten Sie dabei auch auf die richtige Reihenfolge auf der jeweiligen Achse.**
 
-| Kontextknoten |	Pfadausdruck           | Knotenmenge |
-| :-----------: | :--------------------: | :---------: |
-|      8        |      p                 |    10,13    |
-|     18        |	ancestor-or-self::sect |  18,14,8,1  |
-|     14        |  	.//*                 | 14,15,16,17,18,19,20,21 |
-|      3        |	../..//sect/title      |    9,14     |
-|     15        |	preceding::em          |   12,5,6    |
-|      7        |	//fig                  |      -      |
-
-cyberkeilers Vorschläge:
 
 | Kontextknoten |	Pfadausdruck           | Knotenmenge |
 | :-----------: | :--------------------: | :---------: |
 |      8        |      p                 |    10,13    |
 |     18        |	ancestor-or-self::sect |     14,8    |
 |     14        |  	.//*                 | 15,16,17,18,19,20,21 |
-|      3        |	../..//sect/title      |    9        |
-|     15        |	preceding::em          |   12,5,6    |
+|      3        |	../..//sect/title      |     9       |
+|     15        |	preceding::em          |   12,6,5    |
 |      7        |	//fig                  |   16,21     |
 
 ---
