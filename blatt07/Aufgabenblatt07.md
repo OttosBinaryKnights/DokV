@@ -63,8 +63,8 @@ e) **Welche Räume sind Professoren zugeordnet?**
 
 ---
 ## Angestellte
-**Gegeben ist die XML-Datei ![angestellte.xml](angestellte.xml). Schreiben Sie eine XQuery-Abfrage, die folgendes Ergebnis liefert:
-Ein Wurzelelement Angestellte wird erzeugt**
+**Gegeben ist die XML-Datei ![angestellte.xml](angestellte.xml). Schreiben Sie eine XQuery-Abfrage, die folgendes Ergebnis liefert:**
+* **Ein Wurzelelement Angestellte wird erzeugt**
 * **Die Elemente Angestellter werden extrahiert**
 * **Über die Verweise durch das Element Referenz mit dessen Attribut Fähigkeit werden den extrahierten Elementen Angestellter die referenzierten Elemente Fähigkeit hinzugefügt**
 * **Die Elemente Referenz werden nicht extrahiert**
