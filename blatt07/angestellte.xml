@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Aufgabenverteilung xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Fähigkeiten>
+		<Fähigkeit Schlüssel="Tellerwaschen">
+			<Beschreibung>Wäscht super schnell Teller.</Beschreibung>
+		</Fähigkeit>
+		<Fähigkeit Schlüssel="ZehnFingerSystem">
+			<Beschreibung>Schreibt ganz schnell mit einer Tastatur.</Beschreibung>
+		</Fähigkeit>
+		<Fähigkeit Schlüssel="Selbstverteidigung">
+			<Beschreibung>Rettet sich aus jeder Gefahr.</Beschreibung>
+		</Fähigkeit>
+		<Fähigkeit Schlüssel="ProfAutoFahren">
+			<Beschreibung>Fährt wie ein Profi Auto.</Beschreibung>
+		</Fähigkeit>
+	</Fähigkeiten>
+	<Personal>
+		<Angestellte>
+			<Angestellter Schlüssel="Angest-123">
+				<Name>
+					<Vorname>Heinz</Vorname>
+					<Nachname>Müller</Nachname>
+				</Name>
+				<Referenz xsi:type="tAngestellterFähigkeit" Fähigkeit="Tellerwaschen"/>
+			</Angestellter>
+			<Angestellter Schlüssel="Angest-007">
+				<Name>
+					<Vorname>James</Vorname>
+					<Nachname>unbekannt</Nachname>
+				</Name>
+				<Referenz xsi:type="tAngestellterFähigkeit" Fähigkeit="Selbstverteidigung"/>
+				<Referenz xsi:type="tAngestellterFähigkeit" Fähigkeit="ProfAutoFahren"/>
+				<Referenz xsi:type="tAngestellterFähigkeit" Fähigkeit="ZehnFingerSystem"/>
+			</Angestellter>
+		</Angestellte>
+	</Personal>
+	<Aufgaben>
+		<Aufgabe Schlüssel="Aufg-234">
+			<Bezeichnung>Tellerputzer in der Kantine</Bezeichnung>
+			<Referenz xsi:type="tAufgabeFähigkeit" Fähigkeit="Tellerwaschen"/>
+		</Aufgabe>
+		<Aufgabe Schlüssel="Aufg-2345">
+			<Bezeichnung>gespielter Geheimagent</Bezeichnung>
+			<Referenz xsi:type="tAufgabeFähigkeit" Fähigkeit="Selbstverteidigung"/>
+			<Referenz xsi:type="tAufgabeFähigkeit" Fähigkeit="ProfAutoFahren"/>
+		</Aufgabe>
+	</Aufgaben>
+	<Zuordnungen>
+		<Zuordnung Angestellter="Angest-123" Aufgabe="Aufg-234"/>
+		<Zuordnung Angestellter="Angest-007" Aufgabe="Aufg-2345"/>
+	</Zuordnungen>
+</Aufgabenverteilung>
