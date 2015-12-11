@@ -37,16 +37,21 @@
                  Plätze CDATA #IMPLIED>
 ```
 **Beantworten Sie folgende Anfragen mit einem XPath-Ausdruck:**
+
 a) **Geben Sie alle Professoren aus, die im Fachbereich "Philosophie" einem Lehrstuhl angehören.**
+``//Fachbereich[@FachbereichName = 'Philosophie']/Professor``
 
 b) **Welche Vorlesungen (Bezeichnung) des Lehrstuhls "Anorganische Chemie" werden an Donnerstagen angeboten?**
+``//Lehrstuhl[/Bezeichnung = 'Anorganische Chemie']/Professor/Vorlesung[.//Termin/@Wochentag = 'Donnerstag' ]/Bezeichnung``
 
 c) **Welche Vorlesungen (Bezeichnung) betreut der Mitarbeiter Waldemar Müller?**
+``//Vorlesung[@ID = //Mitarbeiter[Name/Vorname = 'Waldemar' and Name/Nachname='Müller']/betreut/@IDBetreut]``
 
 d) **Welche Vorlesungen finden am gleichen Tag und zur gleichen Uhrzeit statt wie die Vorlesung mit der Vorlesungsnummer "Vorl-13-002"?**
+``//Vorlesung[Termin/@Wochentag = //Vorlesung[@NorlNr = 'Vorl-13-002']/Termin/@Wochentag and Termin/@Uhrzeit = //Vorlesung[@NorlNr = 'Vorl-13-002']/Termin/@Uhrzeit]``
 
 e) **Welche Räume sind Professoren zugeordnet?**
-
+``//Raum[@RaumNr = //Professor/@RaumREF]``
 ---
 ## XQuery 1
 **Gegeben ist dieses XML-Dokument mit einer Sammlung von Kochrezepten: ![recipes.xml](recipes.xml). Schreiben Sie ein XQuery-programm, das für alle Rezepte die jeweiligen Titel und die Kalorienangabe liefert. Die Ausgabe soll aufsteigend nach Kalorien sortiert sein. Das Ergebnis soll ein wohlgeformtes XML-Dokument mit dem Wurzelelement ``<results>`` sein.**
