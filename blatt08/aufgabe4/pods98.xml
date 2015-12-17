@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<proceedings>
+<name>17. PODS 1998: Seattle, Washington</name>
+<contents>
+<article>
+<author>Ronald Fagin</author>
+<title>Fuzzy Queries in Multimedia Database Systems</title>
+<from> 1</from> <to>10</to>
+</article>
+<article>
+<author>Frank Neven</author>
+<author>Jan Van den Bussche</author>
+<title>Expressiveness of Structured Document Query Languages Based on Attribute Grammars</title>
+<from> 11</from> <to>17</to>
+</article>
+<article>
+<author>Charu C. Aggarwal</author>
+<author>Philip S. Yu</author>
+<title>A New Framework For Itemset Generation</title>
+<from> 18</from> <to>24</to>
+</article>
+<article>
+<author>Hasan Davulcu</author>
+<author>Michael Kifer</author>
+<author>C. R. Ramakrishnan</author>
+<author>I. V. Ramakrishnan</author>
+<title>Logic Based Modeling and Analysis of Workflows</title>
+<from> 25</from> <to>33</to>
+</article>
+<article>
+<author>Surajit Chaudhuri</author>
+<title>An Overview of Query Optimization in Relational Systems</title>
+<from>
+34</from> <to>43</to></article><article>
+<author>Vasilis Samoladas</author>
+<author>Daniel P. Miranker</author>
+<title>A Lower Bound Theorem for Indexing Schemes and Its Application
+to Multidimensional Range Queries</title><from> 44</from> <to>51</to>
+</article><article>
+<author>Elias Koutsoupias</author>
+<author>David Scot Taylor</author>
+<title>Tight Bounds for 2-Dimensional Indexing Schemes</title><from>
+52</from> <to>58</to></article><article>
+<author>Paolo Ciaccia</author>
+<author>Marco Patella</author>
+<author>Pavel Zezula</author>
+<title>A Cost Model for Similarity Queries in Metric Spaces</title><from>
+59</from> <to>68</to></article><article>
+<author>Stavros Christodoulakis</author>
+<author>Fenia Zioga</author>
+<title>Data Base Design Principles for Striping and Placement of
+Delay-Sensitive Data on Disks</title><from> 69</from> <to>78</to></article>
+<article><author>Minos N. Garofalakis</author>
+<author>Yannis E. Ioannidis</author>
+<author>Banu Ozden</author>
+<author>Abraham Silberschatz</author>
+<title>Throughput-Competitive Admission Control for Continuous Media
+Databases</title><from> 79</from> <to>88</to></article>
+<article>
+<author>Luc Segoufin</author>
+<author>Victor Vianu</author>
+<title>Querying Spatial Databases via Topological Invariants</title><from>
+89</from> <to>98</to></article><article>
+<author>Michael Benedikt</author>
+<author>Leonid Libkin</author>
+<title>Safe Constraint Queries</title><from> 99</from> <to>108</to>
+</article><article>
+<author>Luc Vandeurzen</author>
+<author>Marc Gyssens</author>
+<author>Dirk Van Gucht</author>
+<title>An Expressive Language for Linear Spatial Database Queries</title><from>
+109</from> <to>118</to></article><article>
+<author>Jeffrey Scott Vitter</author>
+<title>External Memory Algorithms</title><from> 119</from> <to>128</to>
+</article><article>
+<author>Peter Buneman</author>
+<author>Wenfei Fan</author>
+<author>Scott Weinstein</author>
+<title>Path Constraints in Semistructured and Structured Databases</title><from>
+129</from> <to>138</to></article><article>
+<author>Daniela Florescu</author>
+<author>Alon Y. Levy</author>
+<author>Dan Suciu</author>
+<title>Query Containment for Conjunctive Queries with Regular
+Expressions</title><from> 139</from> <to>148</to>
+</article><article>
+<author>Diego Calvanese</author>
+<author>Giuseppe De Giacomo</author>
+<author>Maurizio Lenzerini</author>
+<title>On the Decidability of Query Containment under Constraints</title><from>
+149</from> <to>158</to></article><article>
+<author>Christos H. Papadimitriou</author>
+<author>Prabhakar Raghavan</author>
+<author>Hisao Tamaki</author>
+<author>Santosh Vempala</author>
+<title>Latent Semantic Indexing: A Probabilistic Analysis</title><from>
+159</from> <to>168</to></article><article>
+<author>Pankaj K. Agarwal</author>
+<author>Lars Arge</author>
+<author>Jeff Erickson</author>
+<author>Paolo Giulio Franciosa</author>
+<author>Jeffrey Scott Vitter</author>
+<title>Efficient Searching with Linear Constraints</title>
+<from> 169</from> <to>178</to></article>
+<article>
+<author>Serge Abiteboul</author>
+<author>Victor Vianu</author>
+<author>Bradley S. Fordham</author>
+<author>Yelena Yesha</author>
+<title>Relational Transducers for Electronic Commerce</title><from>
+179</from> <to>187</to></article><article>
+<author>Pierangela Samarati</author>
+<author>Latanya Sweeney</author>
+<title>Generalizing Data to Provide Anonymity when Disclosing
+Information (Abstract)</title>
+<from> 188</from><to>188</to></article>
+<article>
+<author>Frank Neven</author>
+<author>Jan Van den Bussche</author>
+<author>Dirk Van Gucht</author>
+<author>Gottfried Vossen</author>
+<title>Typed Query Languages for Databases Containing Queries</title><from>
+189</from> <to>196</to></article>
+<article>
+<author>Phokion G. Kolaitis</author>
+<author>David L. Martin</author>
+<author>Madhukar N. Thakur</author>
+<title>On the Complexity of the Containment Problem for Conjunctive
+Queries with Built-in Predicates</title>
+<from> 197</from> <to>204</to></article>
+<article>
+<author>Phokion G. Kolaitis</author>
+<author>Moshe Y. Vardi</author>
+<title>Conjunctive-Query Containment and Constraint Satisfaction</title><from>
+205</from> <to>213</to></article>
+<article>
+<author>Werner Nutt</author>
+<author>Yehoshua Sagiv</author>
+<author>Sara Shurin</author>
+<title>Deciding Equivalences Among Aggregate Queries</title><from>
+214</from> <to>223</to></article>
+<article>
+<author>Judith Klavans</author>
+<title>Data Bases in Digital Libraries: Where Computer Science and
+Information Management Meet</title>
+<from> 224</from> <to>226</to>
+</article>
+<article>
+<author>Erich Gradel</author>
+<author>Yuri Gurevich</author>
+<author>Colin Hirch</author>
+<title>The Complexity of Query Reliability</title>
+<from> 227</from> <to>234</to></article>
+<article>
+<author>Kousha Etessami</author>
+<title>Dynamic Tree Isomorphism via First-Order Updates</title><from>
+235</from> <to>243</to>
+</article>
+<article>
+<author>Sergei G. Vorobyov</author>
+<author>Andrei Voronkov</author>
+<title>Complexity of Nonrecursive Logic Programs with Complex
+Values</title><from> 244</from> <to>253</to>
+</article>
+<article>
+<author>Serge Abiteboul</author>
+<author>Oliver M. Duschka</author>
+<title>Complexity of Answering Queries Using Materialized Views</title><from>
+254</from> <to>263</to></article>
+<article>
+<author>James Bailey</author>
+<author>Guozhu Dong</author>
+<author>Kotagiri Ramamohanarao</author>
+<title>Decidability and Undecidability Results for the Termination
+Problem of Active Database Rules</title>
+<from> 264</from> <to>273</to>
+</article>
+<article>
+<author>John R. Smith</author>
+<author>Chung-Sheng Li</author>
+<author>Vittorio Castelli</author>
+<author>Anant Jhingran</author>
+<title>Dynamic Assembly of Views in Data Cubes</title>
+<from> 274</from> <to>283</to>
+</article>
+</contents>
+</proceedings>
