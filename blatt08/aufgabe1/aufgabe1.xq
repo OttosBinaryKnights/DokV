@@ -6,12 +6,3 @@ declare function funct:eqMod
  } ;
 
 funct:eqMod(7,18,9)
-:)
-
-
-Im Format wie gewünscht:
-declare function local:eqMod($arg1 as xs:int, $arg2 as xs:int, $arg3
-as xs:int) as xs:boolean{
-if ($arg1 mod $arg3 = $arg2 mod $arg3) then true()
-    else false()
-}
