@@ -1,0 +1,8 @@
+{
+  "cmd": "java -cp {FILE_ACTIVE_PATH}/Saxon/saxon9he.jar net.sf.saxon.Query -t -s:{FILE_ACTIVE_NAME_BASE}.xml -q:{FILE_ACTIVE} -o:{FILE_ACTIVE_NAME_BASE}_result.xml",
+  "name": "XQuery Aufgabe2",
+  "errorMatch": [
+    "^regexp1$",
+    "^regexp2$"
+  ],
+}
