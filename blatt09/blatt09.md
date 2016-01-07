@@ -90,6 +90,8 @@ mögliche Vorkommen:
 | respite  |   |
 
  ``(pit|spot|spate|slap two|respite)``
+oder
+ ``(pit|spot|\w+[^t])\b``
 
 * 2.
 
@@ -106,6 +108,8 @@ mögliche Vorkommen:
 |          | shape the |
 
 ``(rap them|tapeth|apth|wrap/try|sap tray|87ap9th|apothecary)``
+oder
+``\b(rap them|tapeth|[\w\/\s]*[^p]y|[^tp]\w*th)\b``
 
 * 3.
 
@@ -121,6 +125,8 @@ mögliche Vorkommen:
 | baffg kit | afffhgk |
 
 ``(affgfking|rafgkahe|bafghk|baffgkit|affgfking|rafgkahe|bafghk|baffg kit)``
+oder
+``\b([^fag\s]|affgf)[a-z\s]+\b``
 
 
 # 9.5 Reguläre Ausdrücke (IV)
