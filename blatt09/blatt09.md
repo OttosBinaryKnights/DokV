@@ -1,4 +1,4 @@
-# 9.1
+# 9.1 IE-Textanalyse
 
 * Text1:
  * Entitäten:
@@ -52,7 +52,8 @@ mögliche Vorkommen:
     - ... winter: 6:30 pm, 7:30pm, 8:30 pm daily; summer: 8:30pm, 9:30pm, 10:30pm daily ...
     - ... 9 am - 4:30 pm ...
 
-# 9.3
+# 9.3 Reguläre Ausdrücke (II)
+
 1. Welche der folgenden Zeichenketten matcht der reguläre Ausdruck ``[a-z][\.\?!]\s+[A-Z]``?
  * ``A. B``
  * ``c! d``
@@ -75,7 +76,7 @@ mögliche Vorkommen:
  * ``<with attribute=”77”>`` --> matched!
 
 ---
-# 9.4
+# 9.4 Reguläre Ausdrücke (III)
 *Schreiben Sie einen regulären Ausdruck, der alle Zeichenketten der Spalte "positive" matcht, jedoch keine Zeichenketten aus der Spalte "negative".*
 
 * 1.
@@ -122,7 +123,7 @@ mögliche Vorkommen:
 ``(affgfking|rafgkahe|bafghk|baffgkit|affgfking|rafgkahe|bafghk|baffg kit)``
 
 
-# 9.5
+# 9.5 Reguläre Ausdrücke (IV)
 **Schreiben Sie einen regulären Ausdruck, der alle Zeichenketten der Spalte "positive" matcht, jedoch keine Zeichenketten aus der Spalte "negative".**
 
 | Positive |	Negative |
