@@ -45,36 +45,47 @@ mögliche Vorkommen:
 
 * 1.
 
- | Positive | Negative |
- | -------- | -------- |
- | pit      | pt |
- | spot     | Pot |
- | spate    | pat |
- | slap two | part |
- | respite  |
+| Positive | Negative |
+| -------- | -------- |
+| pit      | pt |
+| spot     | Pot |
+| spate    | pat |
+| slap two | part |
+| respite  |   |
 
  ``(pit|spot|spate|slap two|respite)``
 
 * 2.
 
 | Positive | Negative |
-| ------
-rap them
-tapeth
-apth
-wrap/try
-sap tray
-87ap9th
-apothecary
-aleht
-happy them
-tarpth
-Apt
-peth
-tarreth
-ddapdg
-apples
-shape the
+| -------- | -------- |
+| rap them | aleht |
+| tapeth   | happy them |
+| apth     | tarpth |
+| wrap/try | Apt |
+| sap tray | peth |
+| 87ap9th  | tarreth |
+| apothecary | ddapdg |
+|          | apples |
+|          | shape the |
+
+``(rap them|tapeth|apth|wrap/try|sap tray|87ap9th|apothecary)``
+
+* 3.
+
+| Positive | Negative |
+| -------- | -------- |
+| affgfking | fgok |
+| rafgkahe | a fgk |
+| bafghk   | affgm |
+| baffgkit | afffhk |
+| affgfking | fgok |
+| rafgkahe | afg.K |
+| bafghk   |  aff gm |
+| baffg kit | afffhgk |
+
+``(affgfking|rafgkahe|bafghk|baffgkit|affgfking|rafgkahe|bafghk|baffg kit)``
+
 
 # 9.5
 **Schreiben Sie einen regulären Ausdruck, der alle Zeichenketten der Spalte "positive" matcht, jedoch keine Zeichenketten aus der Spalte "negative".**
