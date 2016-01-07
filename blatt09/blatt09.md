@@ -75,3 +75,37 @@ tarreth
 ddapdg
 apples
 shape the
+
+# 9.5
+**Schreiben Sie einen regulären Ausdruck, der alle Zeichenketten der Spalte "positive" matcht, jedoch keine Zeichenketten aus der Spalte "negative".**
+
+| Positive |	Negative |
+| :---:| :---: |
+| cat. | abc1 |
+| 896. |
+| ?=+. | 	
+
+  ``.+\.``
+
+| Positive |	Negative |
+| --- | --- |
+| can	| dan
+| man	| ran
+| fan	| pan
+
+  ``[c|m|f]an``
+
+| Positive |	Negative |
+| ---  |  --- |
+|wazzzzup |	wazup
+|wazzzup |
+
+  ``waz[z]+up``
+
+
+| Positive |	Negative |
+| ---  |  --- |
+| 1 file found? |	No files found. |
+| 2 files found? |
+| 24 files found?	|
+  ``[0-9]+ file(s)? found\?``
