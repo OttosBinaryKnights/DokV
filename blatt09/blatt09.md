@@ -1,4 +1,39 @@
+# 9.1
 
+* Text1:
+ * Entitäten:
+   * DAX, 256 Zähler, 5.8 Prozent, 4.638 Punkte
+   * Devisenmarkt, 1,2871 Dollar pro Euro
+   * Feinunze Gold, 771,30 Dollar
+   * Post, 3,5 Prozent, 10,45 Euro, Dividende, 90 Cents je Aktie
+   * BMW, 3,3 Prozent, 20,48 Euro
+
+ * Beziehungen:
+   * Es sind Unternehmen, die an der Börse gehandelt werden.
+
+ * Tamplate:
+   * ``<DAX> zieht <Zähler>, <Prozentwert> auf <Punkte> an``
+   * ``<Devisenmarkt> notiert <Dollar>``
+   * ``<Feinunze Gold> kostet<Dollar>``
+
+* Text2:
+ * Entitäten:
+   * Radlerin, Atemalkoholtest, 1,62 Promille
+   * Täter, Wohnung, Herderstraße
+   * Wohnungsmieter, Feuer,
+   * Drogenschnelltest, Fahrzeugführer, Amphetamine
+   * Einkaufsmarkt, Langenbogen
+
+ * Beziehungen:
+   * Die meisten Entitäten sind kriminell.
+   * Werden von anderen Entitäten, Polizei, kontakiert.
+
+ * Tamplate:
+   * ``<Radlerin> erbrachte <Promillewert>``
+   * ``<Täter> drangen in <Wohnung> in der <Straßennamen> ein``
+   * ``<Test> bei <Fahrzeugführer> verlief poisitiv auf <Drogenart>``
+
+---
 # 9.2 Reguläre Ausdrücke
 1. **Formulieren Sie einen regulären Ausdruck, der in einem Text alle kleingeschriebenen Wörter findet, die auf e enden.**
 
