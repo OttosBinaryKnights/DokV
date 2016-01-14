@@ -25,7 +25,7 @@ In der Vorlesung haben Sie das Python-Toolkit [NLTK](http://www.nltk.org) kennen
 ``nltk.help.upenn_tagset(’NN.*’)``
 
 Text:
-`Hey guys.. I know we haven't been updating and it's for quite a reason. There are tons of updates I want to share wit you guys, and we will do so in the next 1-2 days.  I just got back from CES after a whopping 10+ days in Vegas (I had meetings prior and after CES)
+`Hey guys.. I know we haven't been updating and it's for quite a reason. There are tons of updates I want to share with you guys, and we will do so in the next 1-2 days.  I just got back from CES after a whopping 10+ days in Vegas (I had meetings prior and after CES)
 I'm going to do a quick overview of CES and what happened the entire week...
 For those that don't know what CES is, it is the Consumer Electronics Show, held once a year usually on the first week of January in Las Vegas and is the largest consumer products show in the world.  This year, a lot of of products and companies revolved around IoT (Internet of Things) and Virtual Reality and Automation.
 Did you know.. a lot of whats listed below can eventually be doable with the PINE64? Super psyched!`
@@ -50,3 +50,201 @@ Output:
 *Bereiten Sie dann den Text so auf, dass Sie die Methode ``nltk.ne_chunk()`` auf ihn anwenden können.*
 
 *Analysieren Sie ihr erreichtes Ergebnis. Welche werte ergeben sich für Recall und Precision?*
+
+Text:
+`Hey guys.. I know we haven't been updating and it's for quite a reason. There are tons of updates I want to share with you guys, and we will do so in the next 1-2 days.  I just got back from CES after a whopping 10+ days in Vegas (I had meetings prior and after CES)
+I'm going to do a quick overview of CES and what happened the entire week...
+For those that don't know what CES is, it is the Consumer Electronics Show, held once a year usually on the first week of January in Las Vegas and is the largest consumer products show in the world.  This year, a lot of of products and companies revolved around IoT (Internet of Things) and Virtual Reality and Automation.
+Did you know.. a lot of whats listed below can eventually be doable with the PINE64? Super psyched!`
+
+Entitäten:
+updates
+guys
+CES / Consumer Electronics Show
+Vegas / Las Vegas
+PINE64
+
+1. ``text="""TEXT"""``
+2. ``tokens = nltk.word_tokenize(text)``
+3. ``tagged_tokens=nltk.pos_tag(tokens)``
+4. ``print nltk.ne_chunk(tagged_tokens,binary=False)``
+
+Output:
+``(S
+  Hey/NNP
+  guys../VBP
+  I/PRP
+  know/VBP
+  we/PRP
+  have/VBP
+  n't/RB
+  been/VBN
+  updating/VBG
+  and/CC
+  it/PRP
+  's/VBZ
+  for/IN
+  quite/RB
+  a/DT
+  reason/NN
+  ./.
+  There/EX
+  are/VBP
+  tons/NNS
+  of/IN
+  updates/NNS
+  I/PRP
+  want/VBP
+  to/TO
+  share/NN
+  wit/NN
+  you/PRP
+  guys/VBP
+  ,/,
+  and/CC
+  we/PRP
+  will/MD
+  do/VB
+  so/RB
+  in/IN
+  the/DT
+  next/JJ
+  1-2/JJ
+  days/NNS
+  ./.
+  I/PRP
+  just/RB
+  got/VBD
+  back/RB
+  from/IN
+  (ORGANIZATION CES/NNP)
+  after/IN
+  a/DT
+  whopping/JJ
+  10+/CD
+  days/NNS
+  in/IN
+  (GPE Vegas/NNP)
+  (/(
+  I/PRP
+  had/VBD
+  meetings/NNS
+  prior/RB
+  and/CC
+  after/IN
+  (ORGANIZATION CES/NNP)
+  )/)
+  I/PRP
+  'm/VBP
+  going/VBG
+  to/TO
+  do/VB
+  a/DT
+  quick/JJ
+  overview/NN
+  of/IN
+  (ORGANIZATION CES/NNP)
+  and/CC
+  what/WDT
+  happened/VBD
+  the/DT
+  entire/JJ
+  week/NN
+  .../:
+  For/IN
+  those/DT
+  that/WDT
+  do/VBP
+  n't/RB
+  know/VB
+  what/WP
+  (ORGANIZATION CES/NNP)
+  is/VBZ
+  ,/,
+  it/PRP
+  is/VBZ
+  the/DT
+  (ORGANIZATION Consumer/NNPS Electronics/NNP Show/NNP)
+  ,/,
+  held/VBD
+  once/RB
+  a/DT
+  year/NN
+  usually/RB
+  on/IN
+  the/DT
+  first/JJ
+  week/NN
+  of/IN
+  January/NNP
+  in/IN
+  (GPE Las/NNP Vegas/NNP)
+  and/CC
+  is/VBZ
+  the/DT
+  largest/JJS
+  consumer/NN
+  products/NNS
+  show/VBP
+  in/IN
+  the/DT
+  world/NN
+  ./.
+  This/DT
+  year/NN
+  ,/,
+  a/DT
+  lot/NN
+  of/IN
+  of/IN
+  products/NNS
+  and/CC
+  companies/NNS
+  revolved/VBN
+  around/IN
+  (GPE IoT/NNP)
+  (/(
+  Internet/NNP
+  of/IN
+  (GPE Things/NNP)
+  )/)
+  and/CC
+  (PERSON Virtual/JJ Reality/NNP)
+  and/CC
+  (ORGANIZATION Automation/NNP)
+  ./.
+  Did/NNP
+  you/PRP
+  know../VB
+  a/DT
+  lot/NN
+  of/IN
+  whats/NNS
+  listed/VBN
+  below/IN
+  can/MD
+  eventually/RB
+  be/VB
+  doable/JJ
+  with/IN
+  the/DT
+  (ORGANIZATION PINE64/NNP)
+  ?/.
+  (PERSON Super/NNP)
+  psyched/VBD
+  !/.)
+``
+
+* True positives (TP) are relevant items that we correctly identified as relevant.
+* True negatives (TN) are irrelevant items that we correctly identified as irrelevant.
+* False positives (FP)(or Type I errors) are irrelevant items that we incorrectly identified as relevant.
+* False negatives (FN)(or Type II errors) are relevant items that we incorrectly identified as irrelevant.
+
+Given these four numbers, we can define the following metrics:
+
+* Precision, which indicates how many of the items that we identified were relevant, is TP/(TP+FP).
+* Recall, which indicates how many of the relevant items that we identified, is TP/(TP+FN).
+
+The F-Measure (or F-Score), which combines the precision and recall to give a single score, is defined to be the harmonic mean of the precision and recall: (2 × Precision × Recall) / (Precision + Recall).
+
+Quelle: http://www.nltk.org/book/ch06.html
