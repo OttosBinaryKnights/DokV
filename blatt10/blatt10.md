@@ -2,15 +2,46 @@
 ## IE-Textanalyse
 *Sehen Sie folgenden [Text](vw.txt) an und beantworten Sie die folgenden Fragen:*
 * *Welche Entitäten treten auf? Geben Sie Beispiele für Entitäten und ihre Eigenschaften an.*
+
+  * Automesse --> Skyline
+  * Detroit, Detroit-Suburbia --> Skyline, Dachlandschaften, verzierten Ornamenten, Häusermix, Ruinen
+  * Matthias Müller --> Porsche-Chef, Sportwagen-Conférencier, VW-Mann, VW-Chef
+  * VW --> Januar 2016, Konzern, Normalität, Krise
+  * US-Justizministerium --> Klage, Schadenersatz, Sammelklagen
+
 * *Welche Beziehungen bestehen zwischen den Entitäten?*
+
+  * US-Regierung klagt
+  * VW-Image ist ramponiert
+  * US-Justizministerium hat eingereicht
+  * Automesse zeigt sich
+
 * *Welche Scenario-Templates lassen sich beschreiben (je Dokument mind. 2 Templates)?*
+
+  * <Detroit> zeigt sich mit <Ansicht>
+  * <Matthias Müller> ist <Position>
 
 ---
 ## IE-Textanalyse (2)
 *Sehen Sie folgenden [Text](china.txt) an und beantworten Sie die folgenden Fragen:*
 * *Welche Entitäten treten auf? Geben Sie Beispiele für Entitäten und ihre Eigenschaften an.*
+
+  * Chinas Börse
+  * Chinas Wirtschaftsleistung
+  * Schuster -> Leisten, Leder, Stiefel
+  * China -> Überproduktion, Arbeitskosten, Produktionskonkurrenten, Immobilien-Blase, Plagen
+
 * *Welche Beziehungen bestehen zwischen den Entitäten?*
+
+* Chinas Börse -> sind nicht, kracht
+* Chinas Wirtschaftsleistung -> sind nicht, geht in die Knie
+* Schuster -> nimmt, schneidet zu
+* China -> kommt über
+
 * *Welche Scenario-Templates lassen sich beschreiben (je Dokument mind. 2 Templates)?*
+
+  * ``<China> überkommt <Plagen>``
+  * ``<Schuster> arbeitet mit <Materialien>``
 
 ---
 ## NLTK Part-of-Speech Tagging
