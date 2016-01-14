@@ -128,6 +128,12 @@ oder
 oder
 ``\b([^fag\s]|affgf)[a-z\s]+\b``
 
+Alternativ:
+
+* 1) ``[prs](i|p|l|es)[a-z]+[\s[two]]+`` oder   ``[a-z]+(?<=p)(i|a|o|\s)(?=t)[a-z]+``
+* 2) ``[a-z0-9]+(?<=ap)(?!p|d)(\s|/|[a-z]+|[0-9])[a-z]+``
+* s3) ``[a-z]+(?<=afg|affg)(?!m)[\s[a-z]+][a-z]+``
+
 
 # 9.5 Reguläre Ausdrücke (IV)
 **Schreiben Sie einen regulären Ausdruck, der alle Zeichenketten der Spalte "positive" matcht, jedoch keine Zeichenketten aus der Spalte "negative".**
