@@ -174,10 +174,10 @@ Did you know.. a lot of whats listed below can eventually be doable with the PIN
 
 Entitäten:
 updates
-guys
-CES / Consumer Electronics Show
-Vegas / Las Vegas
-PINE64
+guys ->PERSON
+CES / Consumer Electronics Show LOCATION/ORGANIZATION
+Vegas / Las Vegas GPE (LOCATION)
+PINE64 ->OGANISATION
 
 1. ``text="""TEXT"""``
 2. ``tokens = nltk.word_tokenize(text)``
