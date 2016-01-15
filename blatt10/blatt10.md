@@ -64,6 +64,90 @@ Did you know.. a lot of whats listed below can eventually be doable with the PIN
 Output:
 [('Hey', 'NNP'), ('guys..', 'VBP'), ('I', 'PRP'), ('know', 'VBP'), ('we', 'PRP'), ('have', 'VBP'), ("n't", 'RB'), ('been', 'VBN'), ('updating', 'VBG'), ('and', 'CC'), ('it', 'PRP'), ("'s", 'VBZ'), ('for', 'IN'), ('quite', 'RB'), ('a', 'DT'), ('reason', 'NN'), ('.', '.'), ('There', 'EX'), ('are', 'VBP'), ('tons', 'NNS'), ('of', 'IN'), ('updates', 'NNS'), ('I', 'PRP'), ('want', 'VBP'), ('to', 'TO'), ('share', 'NN'), ('wit', 'NN'), ('you', 'PRP'), ('guys', 'VBP'), (',', ','), ('and', 'CC'), ('we', 'PRP'), ('will', 'MD'), ('do', 'VB'), ('so', 'RB'), ('in', 'IN'), ('the', 'DT'), ('next', 'JJ'), ('1-2', 'JJ'), ('days', 'NNS'), ('.', '.'), ('I', 'PRP'), ('just', 'RB'), ('got', 'VBD'), ('back', 'RB'), ('from', 'IN'), ('CES', 'NNP'), ('after', 'IN'), ('a', 'DT'), ('whopping', 'JJ'), ('10+', 'CD'), ('days', 'NNS'), ('in', 'IN'), ('Vegas', 'NNP'), ('(', '('), ('I', 'PRP'), ('had', 'VBD'), ('meetings', 'NNS'), ('prior', 'RB'), ('and', 'CC'), ('after', 'IN'), ('CES', 'NNP'), (')', ')'), ('I', 'PRP'), ("'m", 'VBP'), ('going', 'VBG'), ('to', 'TO'), ('do', 'VB'), ('a', 'DT'), ('quick', 'JJ'), ('overview', 'NN'), ('of', 'IN'), ('CES', 'NNP'), ('and', 'CC'), ('what', 'WDT'), ('happened', 'VBD'), ('the', 'DT'), ('entire', 'JJ'), ('week', 'NN'), ('...', ':'), ('For', 'IN'), ('those', 'DT'), ('that', 'WDT'), ('do', 'VBP'), ("n't", 'RB'), ('know', 'VB'), ('what', 'WP'), ('CES', 'NNP'), ('is', 'VBZ'), (',', ','), ('it', 'PRP'), ('is', 'VBZ'), ('the', 'DT'), ('Consumer', 'NNPS'), ('Electronics', 'NNP'), ('Show', 'NNP'), (',', ','), ('held', 'VBD'), ('once', 'RB'), ('a', 'DT'), ('year', 'NN'), ('usually', 'RB'), ('on', 'IN'), ('the', 'DT'), ('first', 'JJ'), ('week', 'NN'), ('of', 'IN'), ('January', 'NNP'), ('in', 'IN'), ('Las', 'NNP'), ('Vegas', 'NNP'), ('and', 'CC'), ('is', 'VBZ'), ('the', 'DT'), ('largest', 'JJS'), ('consumer', 'NN'), ('products', 'NNS'), ('show', 'VBP'), ('in', 'IN'), ('the', 'DT'), ('world', 'NN'), ('.', '.'), ('This', 'DT'), ('year', 'NN'), (',', ','), ('a', 'DT'), ('lot', 'NN'), ('of', 'IN'), ('of', 'IN'), ('products', 'NNS'), ('and', 'CC'), ('companies', 'NNS'), ('revolved', 'VBN'), ('around', 'IN'), ('IoT', 'NNP'), ('(', '('), ('Internet', 'NNP'), ('of', 'IN'), ('Things', 'NNP'), (')', ')'), ('and', 'CC'), ('Virtual', 'JJ'), ('Reality', 'NNP'), ('and', 'CC'), ('Automation', 'NNP'), ('.', '.'), ('Did', 'NNP'), ('you', 'PRP'), ('know..', 'VB'), ('a', 'DT'), ('lot', 'NN'), ('of', 'IN'), ('whats', 'NNS'), ('listed', 'VBN'), ('below', 'IN'), ('can', 'MD'), ('eventually', 'RB'), ('be', 'VB'), ('doable', 'JJ'), ('with', 'IN'), ('the', 'DT'), ('PINE64', 'NNP'), ('?', '.'), ('Super', 'NNP'), ('psyched', 'VBD'), ('!', '.')]
 
+NNPS: noun, proper, plural
+    Americans Americas Amharas Amityvilles Amusements Anarcho-Syndicalists
+    Andalusians Andes Andruses Angels Animals Anthony Antilles Antiques
+    Apache Apaches Apocrypha ...
+NNP: noun, proper, singular
+    Motown Venneboerger Czestochwa Ranzer Conchita Trumplane Christos
+    Oceanside Escobar Kreisler Sawyer Cougar Yvette Ervin ODI Darryl CTCA
+    Shannon A.K.C. Meltex Liverpool ...
+NNS: noun, common, plural
+    undergraduates scotches bric-a-brac products bodyguards facets coasts
+    divestitures storehouses designs clubs fragrances averages
+    subjectivists apprehensions muses factory-jobs ...
+
+VBP: verb, present tense, not 3rd person singular
+    predominate wrap resort sue twist spill cure lengthen brush terminate
+    appear tend stray glisten obtain comprise detest tease attract
+    emphasize mold postpone sever return wag ...
+VBN: verb, past participle
+    multihulled dilapidated aerosolized chaired languished panelized used
+    experimented flourished imitated reunifed factored condensed sheared
+    unsettled primed dubbed desired ...
+VBZ: verb, present tense, 3rd person singular
+    bases reconstructs marks mixes displeases seals carps weaves snatches
+    slumps stretches authorizes smolders pictures emerges stockpiles
+    seduces fizzes uses bolsters slaps speaks pleads ...
+VBD: verb, past tense
+    dipped pleaded swiped regummed soaked tidied convened halted registered
+    cushioned exacted snubbed strode aimed adopted belied figgered
+    speculated wore appreciated contemplated ...
+
+WDT: WH-determiner
+    that what whatever which whichever
+
+PRP: pronoun, personal
+    hers herself him himself hisself it itself me myself one oneself ours
+    ourselves ownself self she thee theirs them themselves they thou thy us
+
+JJS: adjective, superlative
+    calmest cheapest choicest classiest cleanest clearest closest commonest
+    corniest costliest crassest creepiest crudest cutest darkest deadliest
+    dearest deepest densest dinkiest ...
+
+DT: determiner
+    all an another any both del each either every half la many much nary
+    neither no some such that the them these this those
+EX: existential there
+    there
+RB: adverb
+    occasionally unabatingly maddeningly adventurously professedly
+    stirringly prominently technologically magisterially predominately
+    swiftly fiscally pitilessly ...
+IN: preposition or conjunction, subordinating
+    astride among uppon whether out inside pro despite on by throughout
+    below within for towards near behind atop around if like until below
+    next into if beside ...
+TO: "to" as preposition or infinitive marker
+    to
+VB: verb, base form
+    ask assemble assess assign assume atone attention avoid bake balkanize
+    bank begin behold believe bend benefit bevel beware bless boil bomb
+    boost brace break bring broil brush build ...
+MD: modal auxiliary
+    can cannot could couldn't dare may might must need ought shall should
+    shouldn't will would
+
+CC: conjunction, coordinating
+    & 'n and both but either et for less minus neither nor or plus so
+    therefore times v. versus vs. whether yet
+NN: noun, common, singular or mass
+    common-carrier cabbage knuckle-duster Casino afghan shed thermostat
+    investment slide humour falloff slick wind hyena override subhumanity
+    machinist ...
+JJ: adjective or numeral, ordinal
+    third ill-mannered pre-war regrettable oiled calamitous first separable
+    ectoplasmic battery-powered participatory fourth still-to-be-named
+    multilingual multi-disciplinary ...
+
+.: sentence terminator
+    . ! ?
+,: comma
+    ,
+:: colon or ellipsis
+    : ; ...
+
 --> Ich glaube es hat keine Fehler, bin mir aber ach nicht ganz sicher.
 
 ---
