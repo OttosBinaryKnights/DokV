@@ -177,5 +177,24 @@ Problem: Text of mehrdeutig / verschiedene Texte mit gleicher Aussage
 ### Namen
 im Englischen: Eigennamen über Großschreibung
 
+### Entitäten
+Personen, Organisationen, Städte & Orte
+
 ### Beziehungen
 Hängen oft an Verben oder verbalen Strukturen
+
+## Phasen der Informationsextraktion
+### NE(R) - Named Entity Recognition
+Entitäten werden bestimmt
+
+### CO - Coreference Resolution
+Die Deutsche Bank ... ! *Sie* war ...
+
+### TE - Template Element Construction
+Elemente festlegen
+
+### TR - Template Relation Construction
+Beziehungen zwischen den Elementen
+
+### ST Scenario Template Production
+Daraus wird ein Scenario Template gebastelt
