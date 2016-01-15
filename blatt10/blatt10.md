@@ -21,6 +21,25 @@
   * <Detroit> zeigt sich mit <Ansicht>
   * <Matthias Müller> ist <Position>
 
+Alternative:
+* *Welche Entitäten treten auf? Geben Sie Beispiele für Entitäten und ihre Eigenschaften an.*
+
+  * Detroit, Detroit-Suburbia --> Skyline, Dachlandschaften, verzierten Ornamenten, urbane Häusermix, Stadtkrise, Ruinen
+  * Matthias Müller --> VW-Chef, Porsche-Chef, Sportwagen-Conférencier, VW-Mann, VW-Chef
+  * USA, Übersee
+  * VW --> Januar 2016, Konzern, nach Normalität sucht, Krise
+  * US-Justizministerium --> Klage, Schadenersatz, Sammelklagen
+
+* *Welche Beziehungen bestehen zwischen den Entitäten?*
+  * US-Justizministerium [...] gegen VW eingereicht
+  * Matthias Müller bittet um Vertrauen in Übersee
+
+* *Welche Scenario-Templates lassen sich beschreiben (je Dokument mind. 2 Templates)?*
+
+  * <US-Justizministerium> gegen <VW> eingereicht
+  * <Matthias Müller> ist <Position>
+
+
 ---
 ## IE-Textanalyse (2)
 *Sehen Sie folgenden [Text](china.txt) an und beantworten Sie die folgenden Fragen:*
@@ -42,6 +61,25 @@
 
   * ``<China> überkommt <Plagen>``
   * ``<Schuster> arbeitet mit <Materialien>``
+
+
+
+  * *Welche Entitäten treten auf? Geben Sie Beispiele für Entitäten und ihre Eigenschaften an.*
+
+    * Chinas Börse, Börse --> kracht
+    * Chinas Wirtschaftsleistung, Realwirtschaft --> nicht in die Knie
+    * China --> Überproduktion, Arbeitskosten, Produktionskonkurrenten, Immobilien-Blase, Plagen
+    * Krise --> massive, ökonomische
+
+  * *Welche Beziehungen bestehen zwischen den Entitäten?*
+
+    * US-Regierung klagt
+    * China steht vor einer massiven ökonomischen Krise.
+
+  * *Welche Scenario-Templates lassen sich beschreiben (je Dokument mind. 2 Templates)?*
+
+    * <China> steht vor <Krise>
+    * <Matthias Müller> ist <Position>
 
 ---
 ## NLTK Part-of-Speech Tagging
