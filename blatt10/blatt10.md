@@ -69,17 +69,19 @@ Alternative:
     * Chinas Börse, Börse --> kracht
     * Chinas Wirtschaftsleistung, Realwirtschaft --> nicht in die Knie
     * China --> Überproduktion, Arbeitskosten, Produktionskonkurrenten, Immobilien-Blase, Plagen
+    * Probleme --> in MAssenproduktion, im Devisengeschäft
     * Krise --> massive, ökonomische
+
 
   * *Welche Beziehungen bestehen zwischen den Entitäten?*
 
-    * US-Regierung klagt
+    * Chinas Börse spiegelt Probleme [.]
     * China steht vor einer massiven ökonomischen Krise.
 
   * *Welche Scenario-Templates lassen sich beschreiben (je Dokument mind. 2 Templates)?*
 
+    * <Börse> abspielt, spiegelt <Probleme>
     * <China> steht vor <Krise>
-    * <Matthias Müller> ist <Position>
 
 ---
 ## NLTK Part-of-Speech Tagging
@@ -187,6 +189,30 @@ JJ: adjective or numeral, ordinal
     : ; ...
 
 --> Ich glaube es hat keine Fehler, bin mir aber ach nicht ganz sicher.
+
+Text:
+Mr. and Mrs. Dursley, of number four, Privet Drive, were proud to say that they were perfectly normal, thank you very much. They were the last people you'd expect to be involved in anything strange or mysterious, because they just didn't hold with such nonsense.
+Mr. Dursley was the director of a firm called Grunnings, which made drills. He was a big, beefy man with hardly any neck, although he did have a very large mustache. Mrs. Dursley was thin and blonde and had nearly twice the usual amount of neck, which came in very useful as she spent so much of her time craning over garden fences, spying on the neighbors. The Dursleys had a small son called Dudley and in their opinion there was no finer boy anywhere.
+
+Output:
+[('Mr.', 'NNP'), ('and', 'CC'), ('Mrs.', 'NNP'), ('Dursley', 'NNP'), (',', ','), ('of', 'IN'), ('number', 'NN'), ('four', 'CD'), (',', ','), ('Privet', 'NNP'), ('Drive', 'NNP'), (',', ','), ('were', 'VBD'), ('proud', 'JJ'), ('to', 'TO'), ('say', 'VB'), ('that', 'IN'), ('they', 'PRP'), ('were', 'VBD'), ('perfectly', 'RB'), ('normal', 'JJ'), (',', ','), ('thank', 'NN'), ('you', 'PRP'), ('very', 'RB'), ('much', 'RB'), ('.', '.'), ('They', 'PRP'), ('were', 'VBD'), ('the', 'DT'), ('last', 'JJ'), ('people', 'NNS'), ('you', 'PRP'), ("'d", 'MD'), ('expect', 'VB'), ('to', 'TO'), ('be', 'VB'), ('involved', 'VBN'), ('in', 'IN'), ('anything', 'NN'), ('strange', 'JJ'), ('or', 'CC'), ('mysterious', 'JJ'), (',', ','), ('because', 'IN'), ('they', 'PRP'), ('just', 'RB'), ('did', 'VBD'), ("n't", 'RB'), ('hold', 'VB'), ('with', 'IN'), ('such', 'JJ'), ('nonsense', 'NN'), ('.', '.'), ('Mr.', 'NNP'), ('Dursley', 'NNP'), ('was', 'VBD'), ('the', 'DT'), ('director', 'NN'), ('of', 'IN'), ('a', 'DT'), ('firm', 'NN'), ('called', 'VBN'), ('Grunnings', 'NNP'), (',', ','), ('which', 'WDT'), ('made', 'VBD'), ('drills', 'NNS'), ('.', '.'), ('He', 'PRP'), ('was', 'VBD'), ('a', 'DT'), ('big', 'JJ'), (',', ','), ('beefy', 'JJ'), ('man', 'NN'), ('with', 'IN'), ('hardly', 'RB'), ('any', 'DT'), ('neck', 'NN'), (',', ','), ('although', 'IN'), ('he', 'PRP'), ('did', 'VBD'), ('have', 'VB'), ('a', 'DT'), ('very', 'RB'), ('large', 'JJ'), ('mustache', 'NN'), ('.', '.'), ('Mrs.', 'NNP'), ('Dursley', 'NNP'), ('was', 'VBD'), ('thin', 'JJ'), ('and', 'CC'), ('blonde', 'NN'), ('and', 'CC'), ('had', 'VBD'), ('nearly', 'RB'), ('twice', 'RB'), ('the', 'DT'), ('usual', 'JJ'), ('amount', 'NN'), ('of', 'IN'), ('neck', 'NN'), (',', ','), ('which', 'WDT'), ('came', 'VBD'), ('in', 'IN'), ('very', 'RB'), ('useful', 'JJ'), ('as', 'IN'), ('she', 'PRP'), ('spent', 'VBD'), ('so', 'RB'), ('much', 'JJ'), ('of', 'IN'), ('her', 'PRP$'), ('time', 'NN'), ('craning', 'NN'), ('over', 'IN'), ('garden', 'NN'), ('fences', 'NNS'), (',', ','), ('spying', 'VBG'), ('on', 'IN'), ('the', 'DT'), ('neighbors', 'NNS'), ('.', '.'), ('The', 'DT'), ('Dursleys', 'NNP'), ('had', 'VBD'), ('a', 'DT'), ('small', 'JJ'), ('son', 'NN'), ('called', 'VBN'), ('Dudley', 'NNP'), ('and', 'CC'), ('in', 'IN'), ('their', 'PRP$'), ('opinion', 'NN'), ('there', 'EX'), ('was', 'VBD'), ('no', 'DT'), ('finer', 'NN'), ('boy', 'RB'), ('anywhere', 'RB'), ('.', '.')]
+
+  Bisher kein Fehler gefunden. Selbst "drills" richtig als Noun und nicht als Verb erkannt.
+
+  eventuell: ... nearly twice the usual amount
+  ('twice', 'RB') -> wirklich ein Adverb?
+
+ * NNP: noun, proper, singular (Eigenname)
+ * NNS: noun, common, plural
+ * NN: noun, common, singular or mass
+ * JJ: adjective or numeral, ordinal
+ * RB: adverb
+ * DT: determiner
+ * PRP$: pronoun, possessive
+ * EX: existential there
+ * VBN: verb, past participle
+ * WDT: WH-determiner
+
 
 ---
 ## NP Chunks
